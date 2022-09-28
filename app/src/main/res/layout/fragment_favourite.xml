@@ -6,17 +6,18 @@
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp">
     <TextView
-        android:text="Yêu Thích"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Yêu thích"
+        android:textSize="25dp"
         android:textColor="@color/black"
-        android:textSize="25sp"
         android:textStyle="bold"
-        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="center"
         />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rc.favourite"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="10dp"/>
 </LinearLayout>

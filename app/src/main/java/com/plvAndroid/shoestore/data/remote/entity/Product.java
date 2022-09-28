@@ -21,4 +21,7 @@ public class Product {
     @SerializedName("categories_id")
     public int categoryId;
 
+    @SerializedName("view")
+    public int view;
+
 }
