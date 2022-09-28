@@ -1,9 +1,256 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
     <TextView
-        android:text="User Fragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Cài đặt và riêng tư"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colordevider"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tài khoản"
+        android:textSize="20dp"
+        android:layout_marginBottom="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Quản lý tài khoản"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Đơn hàng"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Quyền riêng tư"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Bảo mật"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colordevider"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung hoạt động"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Thông báo"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Sự kiện"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Lịch sử"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Quảng cáo"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colordevider"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hổ trợ"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Liên hệ"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/acc10"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Báo cáo"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+
+
 </LinearLayout>

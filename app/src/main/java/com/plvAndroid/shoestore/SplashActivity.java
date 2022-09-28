@@ -17,7 +17,7 @@ public class SplashActivity extends AppCompatActivity {
 
         ImageView img = findViewById(R.id.iv_logo);
         img.setAlpha(1f);
-        img.animate().setDuration(5000).alpha(0f).withEndAction(new Runnable() {
+        img.animate().setDuration(3000).alpha(0f).withEndAction(new Runnable() {
             @Override
             public void run() {
                 Intent i = new Intent(getApplicationContext(), MainActivity.class);

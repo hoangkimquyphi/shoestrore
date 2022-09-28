@@ -20,6 +20,7 @@ public class HomeFragmentPresenter implements  HomeFragmentConstract.IPresenter{
     private HomeFragmentConstract.IView mView;
 
     public HomeFragmentPresenter(Context context){
+        DatabaseDao.init((new DatabaseSQlite(context)));
 
     }
     @Override
@@ -54,7 +55,6 @@ public class HomeFragmentPresenter implements  HomeFragmentConstract.IPresenter{
 
             @Override
             public void onFailure(Call<List<Product>> call, Throwable t) {
-
             }
         });
     }
